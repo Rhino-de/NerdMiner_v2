@@ -86,7 +86,7 @@ void drawSetupScreen()
 // Reset the current cyclic screen to the first one
 void resetToFirstScreen()
 {
-  currentDisplayDriver->current_cyclic_screen = 0;
+  currentDisplayDriver->current_cyclic_screen = 1;
 }
 
 // Switches to the next cyclic screen without drawing it
